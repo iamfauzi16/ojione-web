@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Reem+Kufi&display=swap');
+
+
+
+#navbar-id {
+    transition:500ms ease;
+    background:transparent; 
+    background-color: #f4f4f4;
+}
+
+#navbar-id.scrolled {
+    background-color: white;
+}
+
+.hero {
+    margin-top: 6em;
+}
+
+.card {
+    border: none !important;
+    padding: 10%;
+    width: auto;
+    height: 100%;
+}
+
+.navbar-nav a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3.card-title {
+    text-transform: uppercase;
+}
+
+p.fw-light{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.card-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    letter-spacing: 0.5em;
+    color:#888888;
+}
+
+h6.ms-5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.ms-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10;
+}
+
+ul.icon-tech li{
+    margin: 1em;
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+li img:hover {
+    opacity: 80%;
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .hero {
+        margin-top: 4em;
+    }
+
+    #navbar-id {
+        position: fixed;
+    }
+
+    .card{
+        padding: 5%;
+        margin-top: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    h3.card-title {
+        text-transform: none;
+    
+    }
+
+    figure p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 10;
+        letter-spacing: 0.5em;
+        color:#888888;
+    }
+
+    li img {
+        margin: 1em;
+        display: inline-block;
+        list-style-type: none;
+    }
+    
+
+ }
+
+ // Medium devices (tablets, less than 992px)
+ @media (max-width: 991.98px) { 
+ 
+    
+ 
+  }
+
+ /* Terpisah  */
+
+ .hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
